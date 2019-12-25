@@ -76,12 +76,16 @@ WSGI_APPLICATION = 'jg_project.wsgi.application'
 
 DATABASES = {
     'default': {
+<<<<<<< HEAD
         'ENGINE': 'django.db.backends.mysql',
         'NAME': %DBNANE%,
         'USER':%DBUSER%,
         'PASSWORD':%DBPASSWD%,
         'HOST':%DBHOST%,
         'PORT':%DBPORT%
+=======
+
+>>>>>>> 669213aa5a1029a9949ad1abbbe7cc4cd4bbf50a
     }
 }
 
